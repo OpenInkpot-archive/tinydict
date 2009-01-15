@@ -1,0 +1,37 @@
+Source: libtinydict
+Section: media
+Maintainer: Vadim Lopatin <vadim.lopatin@coolreader.org>
+Build-Depends: debhelper (>= 5.0.22), libz-dev
+XCS-Cross-Host-Build-Depends: debhelper (>> 2.0.0), cdbs-slind
+XCS-Cross-Build-Depends: libz-dev
+Priority: optional
+Standards-Version: 3.6.2
+
+Package: libtinydict
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: dict format support library
+ TinyDict is standard .dict dictionary format reading library.
+ .
+ Main features:
+  * small code size
+  * small RAM size required to work
+  * supports uncompressed and .dz compressed data files
+  * exact match and prefix search supported
+ .
+  Homepage: http://sourceforge.net/projects/tinydict/
+
+Package: libtinydict-dev
+Architecture: any
+Section: libdevel
+Depends: libtinydict (= ${Source-Version}), libc6-dev | libc-dev, libz-dev
+Description: Development files for tinydict
+ TinyDict is standard .dict dictionary format reading library.
+ .
+ Main features:
+  * small code size
+  * small RAM size required to work
+  * supports uncompressed and .dz compressed data files
+  * exact match and prefix search supported
+ .
+  Homepage: http://sourceforge.net/projects/tinydict/
