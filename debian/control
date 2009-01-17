@@ -1,5 +1,5 @@
 Source: libtinydict
-Section: media
+Section: core
 Maintainer: Vadim Lopatin <vadim.lopatin@coolreader.org>
 Build-Depends: debhelper (>= 5.0.22), libz-dev
 XCS-Cross-Host-Build-Depends: debhelper (>> 2.0.0), cdbs-slind
