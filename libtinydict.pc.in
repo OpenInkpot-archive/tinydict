@@ -6,5 +6,5 @@ includedir=@includedir@
 Name: libtinydict
 Description: Tiny .dict file format support library
 Version: @VERSION@
-Libs: -L${libdir} -ltinydict 
+Libs: -ltinydict
 Cflags: 
