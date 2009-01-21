@@ -1,3 +1,9 @@
+libtinydict (0.1.0-2) unstable; urgency=low
+
+  * If no words found, don't add empty result list to results collection
+
+ -- Vadim Lopatin <vadim.lopatin@coolreader.org>  Wed, 22 Jan 2009 01:00:00 +0300
+
 libtinydict (0.1.0-1) unstable; urgency=low
 
   * Initial release.

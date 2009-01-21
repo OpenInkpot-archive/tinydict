@@ -847,7 +847,7 @@ TinyDictWordList * TinyDictionary::find( const char * prefix, int options )
 {
 	TinyDictWordList * list = new TinyDictWordList();
 	list->setDict( this );
-	if ( index->find( prefix, (TINY_DICT_OPTION_STARTS_WITH & options) == 0, *list ) )
+	if ( index->find( prefix, (TINY_DICT_OPTION_STARTS_WITH & options) == 0, *list ) && list->length()>0 )
 		return list;
 	delete list;
 	return NULL;
