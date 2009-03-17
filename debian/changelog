@@ -1,3 +1,9 @@
+libtinydict (0.1.0-3) asimov; urgency=low
+
+  * Fixed dependencies
+
+ -- Alexander Kerner <lunohod@openinkpot.org>  Tue, 17 Mar 2009 22:12:32 +0100
+
 libtinydict (0.1.0-2) unstable; urgency=low
 
   * If no words found, don't add empty result list to results collection
