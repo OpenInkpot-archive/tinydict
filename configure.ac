@@ -23,9 +23,6 @@ AC_ARG_WITH(jinke,AC_HELP_STRING([--with-jinke],[path to jinke SDK]),
     ],[
         with_jinke=false
         ac_cv_use_jinke=none
-	PKG_PROG_PKG_CONFIG
-        PKG_CHECK_MODULES(FREETYPE, [freetype2 >= 9.10])
-        PKG_CHECK_MODULES(PNG, [libpng >= 1.2])
 	])
 	
 AM_CONDITIONAL(WITH_JINKE,$with_jinke)
