@@ -1,4 +1,4 @@
-Source: libtinydict
+Source: tinydict
 Section: core
 Maintainer: Vadim Lopatin <vadim.lopatin@coolreader.org>
 Build-Depends: debhelper (>= 5.0.22), cdbs, libz-dev, autoconf, libtool, automake, pkg-config
