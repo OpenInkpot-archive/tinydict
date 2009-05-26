@@ -1,3 +1,9 @@
+tinydict (0.1.0-3+b1) asimov; urgency=low
+
+  * Rebuild to fix libgcc1 dependencies.
+
+ -- Mikhail Gusarov <dottedmag@dottedmag.net>  Tue, 26 May 2009 23:47:05 +0700
+
 tinydict (0.1.0-3) asimov; urgency=low
 
   * Fixed dependencies
