@@ -1,8 +1,8 @@
 Source: tinydict
 Section: core
-Maintainer: Vadim Lopatin <vadim.lopatin@coolreader.org>
-Build-Depends: debhelper (>= 5.0.22), cdbs, libz-dev, autoconf, libtool, automake, pkg-config
-XCS-Cross-Host-Build-Depends: debhelper (>> 2.0.0), cdbs, cdbs-embedded, autoconf, libtool, automake, pkg-config
+Maintainer: Mikhail Gusarov <dottedmag@dottedmag.net>
+Build-Depends: debhelper (>= 4), cdbs, libz-dev, autoconf, libtool, automake, pkg-config
+XCS-Cross-Host-Build-Depends: debhelper (>> 4), cdbs, cdbs-embedded, autoconf, libtool, automake, pkg-config
 XCS-Cross-Build-Depends: libz1-dev
 Priority: optional
 Standards-Version: 3.6.2
